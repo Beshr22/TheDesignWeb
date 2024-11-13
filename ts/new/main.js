@@ -20,3 +20,6 @@ var drb = function (n) {
         return 1;
     return n * drb(n - 1);
 };
+console.clear();
+console.log(sumUpTo(4));
+console.log(drb(4));
